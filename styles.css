@@ -3,11 +3,9 @@ body {
 }
 
 .logo {
-    font: Roboto;
     font-size: 24px;
     color: #F9FAF8;
     display: flex;
-    padding-left: 62px;
     font-weight: bold;
 }
 
@@ -17,7 +15,6 @@ ul {
     justify-content: flex-end;
     align-items: flex-start;
     gap: 15px;
-    padding-right: 15%;
 }
 li {
     list-style-type: none;
@@ -31,6 +28,9 @@ a {
 }
 .header {
     background-color: #1F2937;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 .upper-header {
@@ -38,6 +38,14 @@ a {
     justify-content: space-between;
     align-items: center;
     padding-top: 15px;
+    margin-bottom: 5%;
+}
+
+.lower-header {
+    padding-bottom: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 
@@ -45,12 +53,41 @@ h1 {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
-    padding-left: 62px;
+    width: 380px;
 
 }
 
 p {
-    padding-left: 62px;
     font-size: 18px;
     color: #E5E7EB;
+    width: 500px;
+}
+
+button {
+    background-color: #3882F6;
+    padding: 8px 15px;
+    color: white;
+    border-radius: 10px;
+    border: transparent;
+    width: 130px;
+    height: 40px;
+    font-size: 20px;
+}
+
+
+.placeholder {
+    width: 600px;
+    height:300px;
+    background-color: #708090;
+    color:#F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.lower-header, .upper-header {
+    padding-left: 15%;
+    padding-right: 10%;
+
 }
