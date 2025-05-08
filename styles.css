@@ -17,7 +17,7 @@ ul {
     justify-content: flex-end;
     align-items: flex-start;
     gap: 15px;
-
+    padding-right: 15%;
 }
 li {
     list-style-type: none;
@@ -38,4 +38,19 @@ a {
     justify-content: space-between;
     align-items: center;
     padding-top: 15px;
+}
+
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    padding-left: 62px;
+
+}
+
+p {
+    padding-left: 62px;
+    font-size: 18px;
+    color: #E5E7EB;
 }
