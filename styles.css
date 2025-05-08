@@ -1,0 +1,41 @@
+body {
+    font-family: Roboto, Arial, 'Times New Roman';
+}
+
+.logo {
+    font: Roboto;
+    font-size: 24px;
+    color: #F9FAF8;
+    display: flex;
+    padding-left: 62px;
+    font-weight: bold;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 15px;
+
+}
+li {
+    list-style-type: none;
+
+}
+
+a {
+    text-decoration-line: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+.header {
+    background-color: #1F2937;
+}
+
+.upper-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+}
