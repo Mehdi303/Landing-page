@@ -136,7 +136,7 @@ h2 {
 
 .quote-section {
     background-color: #E5E7EB;
-    padding: 150px;
+    padding: 200px;
 }
 
 .quote {
@@ -149,4 +149,45 @@ h2 {
     font-weight: bold;
     text-align: end;
     font-size: 40px;
+}
+
+.last {
+    padding: 85px;
+    background-color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    background-color: #3882F6; 
+    width: 1000px;
+    height: 120px; 
+    border-radius: 5px;
+    padding: 35px;
+    display:flex ;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text {
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.product {
+    font-size: 19px;
+    color: #b6c2ce;
+}
+
+.sign-up-footer {
+    display: flex;
+    justify-self: end;
+    justify-content: center;
+    border: 2px solid #E5E7EB;
+    margin-right: 85px;
+}
+
+.tt {
+    margin-left: 85px;
 }
