@@ -191,3 +191,12 @@ h2 {
 .tt {
     margin-left: 85px;
 }
+
+.footer {
+    padding: 30px;
+    width: 100%;
+    text-align: center;
+    color: #E5E7EB;
+    left: 0;
+    bottom: 0;
+}
